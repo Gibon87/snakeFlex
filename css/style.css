@@ -6,16 +6,17 @@ body {
 	font: "San-serif":
 
 }
+.center {
+	text-align: center;
+}
 .container {
 	background-color: #fff;
 	box-shadow: 2px 2px 5px #444;
 	border: 4px solid black;
-	height: 100%;
+	display: inline-block;
 	margin: 1px auto;
-	max-width: 360px;
-	max-height: 360px;
 	padding: 0;
-	width: 100%;
+
 }
 .row {
 	display: flex;
@@ -27,10 +28,10 @@ body {
 	border: 1px solid #34495e;
 	background-color: #dcf2f7;
 	flex: 1;
-	height: 40px;
+	height: 5vw;
 	padding: 0;
 	text-align: center;
-	width: 40px;
+	width: 5vw;
 }
 .active {
 	background-color: #0a191c;
